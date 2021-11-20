@@ -92,6 +92,12 @@ public class Employee implements Serializable {
         this.employeeCode = employeeCode;
     }
 
+    @Override
+    public String toString() {
+        return "Employee [email=" + email + ", employeeCode=" + employeeCode + ", id=" + id + ", imageUrl=" + imageUrl
+                + ", jobTitle=" + jobTitle + ", name=" + name + ", phone=" + phone + "]";
+    }
+
     
 
     
